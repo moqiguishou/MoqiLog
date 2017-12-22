@@ -45,21 +45,30 @@ namespace moqi_log
 
         private void btn_ShowDetails_Click(object sender, EventArgs e)
         {
+            get_LogPath();
             if (strLog_path.Equals(""))
             {
                 return;
             }
             //------------------------------------------------//
-            FileStream fs = new FileStream(strLog_path, FileMode.Open);
-            StreamReader sr = new StreamReader(fs, Encoding.Default);
-            string line;
-            string result_details = "";
-            while ((line = sr.ReadLine()) != null) {
-                result_details = result_details + line + "\r\n";
+            try
+            {
+                FileStream fs = new FileStream(strLog_path, FileMode.Open);
+                StreamReader sr = new StreamReader(fs, Encoding.Default);
+                string line;
+                string result_details = "";
+                while ((line = sr.ReadLine()) != null)
+                {
+                    result_details = result_details + line + "\r\n";
+                }
+                sr.Close();
+                fs.Close();
+                text_LogDetails.Text = result_details;
             }
-            sr.Close();
-            fs.Close();
-            text_LogDetails.Text = result_details;
+            catch (IOException ee)
+            {
+                text_Add.Text = ee.ToString();
+            }
         }
 
         private void get_LogAdd()
