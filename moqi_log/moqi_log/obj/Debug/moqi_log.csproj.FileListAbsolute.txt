@@ -1,0 +1,9 @@
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\bin\Debug\moqi_log.exe.config
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\bin\Debug\moqi_log.exe
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\bin\Debug\moqi_log.pdb
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\obj\Debug\moqi_log.csprojResolveAssemblyReference.cache
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\obj\Debug\moqi_log.MoqiLog.resources
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\obj\Debug\moqi_log.Properties.Resources.resources
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\obj\Debug\moqi_log.csproj.GenerateResource.Cache
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\obj\Debug\moqi_log.exe
+E:\杂项\moqiLog\MoqiLog\moqi_log\moqi_log\obj\Debug\moqi_log.pdb
